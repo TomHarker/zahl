@@ -1,0 +1,17 @@
+# This file is a part of Zahl. License is MIT.
+
+# Example library of Zahl functions.
+
+factorial(n)
+    result = 1
+    if(n below 0)
+        result = 0
+    end
+    counter = 1
+    while(counter below n + 1)
+        result = result * counter
+        counter = counter + 1
+    end
+    return result
+end
+
