@@ -1,0 +1,9 @@
+# This file is a part of Zahl. License is MIT.
+
+# Zahl source code to divide one integer by another and print the result to the console.
+
+start()
+    result = 12 / 9
+    print result
+    return 0
+end
