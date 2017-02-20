@@ -1,6 +1,6 @@
 # This file is a part of Zahl. License is MIT.
 
-# Zahl source code to add numbers together and print the result to the console.
+# Zahl source code to add integers together and print the result to the console.
 
 start()
     result = 1 + 1
