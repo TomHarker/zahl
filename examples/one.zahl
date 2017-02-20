@@ -1,0 +1,8 @@
+# This file is a part of Zahl. License is MIT.
+
+# Zahl source code to print the number 1 to the console.
+
+start()
+    print 1
+    return 0
+end
