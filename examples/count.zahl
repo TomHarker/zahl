@@ -1,0 +1,13 @@
+# This file is a part of Zahl. License is MIT.
+
+# Zahl source code to print the integers 1 to 10 to the console.
+
+start()
+    counter = 1
+    limit = 10
+    while(counter below limit + 1)
+        print counter
+        counter = counter + 1
+    end
+    return 0
+end
