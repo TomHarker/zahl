@@ -1,0 +1,9 @@
+# This file is a part of Zahl. License is MIT.
+
+# Zahl source code to use arithmetical operators and print the result to the console.
+
+start()
+    result = 1 + (2 - 3) * (4 / 5)
+    print result
+    return 0
+end
