@@ -1,8 +1,0 @@
-# This file is a part of Zahl. License is MIT.
-
-# Zahl source code to print an error message to the console.
-
-start()
-    print error
-    return 0
-end
