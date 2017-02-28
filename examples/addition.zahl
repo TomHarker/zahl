@@ -4,6 +4,6 @@
 
 start()
     result = 1 + 1
-    print result
-    return 0
+    print(result)
+    return
 end
