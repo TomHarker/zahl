@@ -2,9 +2,9 @@
 
 # Example of using the include statement
 
-include library_usage.zahl
+include library.zahl
 
 start()
-    print factorial(7)
-    return 0
-end
+    print(factorial(7))
+    return
+
