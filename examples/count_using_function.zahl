@@ -6,13 +6,11 @@ start()
     bottom = 1
     top = 10
     count(bottom, top)
-    return 0
-end
+    return
 
 count(bottom, top)
-    while(bottom below top + 1)
+    if(bottom < top + 1)
         print bottom
-        bottom = bottom + 1
+        count(bottom + 1, top)
     end
-    return 0
-end
+    return
