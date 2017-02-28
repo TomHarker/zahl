@@ -1,0 +1,141 @@
+start()
+    bottom = 1
+    top = 10
+    count(bottom top)
+    return 0
+end
+count(bottom top)
+    while[bottom below top + 1]
+        print bottom
+        bottom = bottom + 1
+    end
+    return 0
+end
+
+
+("Function","start")
+("Symbol", "(")
+("Symbol", ")")
+("Symbol", "\n")
+("Variable", "bottom")
+("Assignment", "=")
+("Integer", "1")
+("Symbol", "\n")
+("Variable", "top")
+("Assignment", "=")
+("Integer", "10")
+("Symbol", "\n")
+("Function","count")
+("Symbol", "(")
+("Variable", "bottom")
+("Variable", "top")
+("Symbol", ")")
+("Symbol", "\n")
+("Keyword", "return")
+("Integer", "0")
+("Symbol", "\n")
+("Keyword", "end")
+
+
+("Function","start")
+	("Assignment", "=")
+		("Variable", "bottom")
+		("Integer", "1")
+	("Assignment", "=")
+		("Variable", "top")
+		("Integer", "10")
+	("Function","count")
+		("Variable", "bottom")
+		("Variable", "top")
+	("Keyword", "return")
+		("Integer", "0")
+
+Evaluation:
+
+("Function","start")
+	("Function","count")
+		("Integer", "1")
+		("Integer", "10")
+	("Keyword", "return")
+		("Integer", "0")
+
+
+
+
+("Function","count")
+("Symbol", "(")
+("Variable", "bottom")
+("Variable", "top")
+("Symbol", ")")
+("Symbol", "\n")
+("Keyword", "while")
+("Symbol", "[")
+("Variable", "bottom")
+("Keyword", "below")
+("Variable", "top")
+("Operation", "+")
+("Integer", "1")
+("Symbol", "]")
+("Symbol", "\n")
+("Keyword", "print")
+("Variable", "result")
+("Symbol", "\n")
+("Variable", "bottom")
+("Assignment", "=")
+("Variable", "bottom")
+("Operation", "+")
+("Integer", "1")
+("Symbol", "\n")
+("Keyword", "end")
+("Symbol", "\n")
+("Keyword", "return")
+("Integer", "0")
+("Symbol", "\n")
+("Keyword", "end")
+
+
+("Function","count")
+	("Variable", "bottom")
+	("Variable", "top")
+	("Keyword", "while")
+		("Keyword", "below")
+			("Variable", "bottom")
+			("Operation", "+")
+				("Variable", "top")
+				("Integer", "1")
+		("Keyword", "print")
+			("Variable", "result")
+		("Assignment", "=")
+			("Variable", "bottom")
+			("Operation", "+")
+				("Variable", "bottom")
+				("Integer", "1")
+	("Keyword", "return")
+		("Integer", "0")
+
+Evaluation:
+
+Replace Variable List with assignment statements.
+
+("Function","count")
+	("Assignment", "=")
+		("Variable", "bottom")
+		("Integer", "1")
+	("Assignment", "=")
+		("Variable", "top")
+		("Integer", "10")
+	("Keyword", "while")
+		("Keyword", "below")
+			("Variable", "bottom")
+			("Operation", "+")
+				("Variable", "top")
+				("Integer", "1")
+		("Keyword", "print")
+			("Variable", "result")
+		("Assignment", "=")
+			("Variable", "bottom")
+			("Operation", "+")
+				("Variable", "bottom")
+				("Integer", "1")
+	("Keyword", "return")
+		("Integer", "0")
