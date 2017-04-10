@@ -1,6 +1,5 @@
 # opens file and returns list of lines
 def readFile(filename):
-
     source = []
 
     try:
@@ -12,6 +11,12 @@ def readFile(filename):
     return filter(None, source)
 
 
+def addImports(source):
+    # Find any import statements and replace with relevant files.
+    for line in source:
+        if "import" in line:
+            line = line.replace('.' , '')
+
 
 # Write function to open file and preprocess.
 def preprocess(filename):
@@ -19,12 +24,7 @@ def preprocess(filename):
 
     # Remove comments.
 
-    # Find any import statements and replace with relevant files.
-    for line in source:
-        if "import" in line:
-            line = line.replace('.' , '')
 
 
-    # Remove unnecessary whitespace.
 
 
